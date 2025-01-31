@@ -29,6 +29,14 @@ const colorMapping = {
   'default': '#F9F9ED'
 }
 
+const shinyColorMapping = {
+  'CS': '#9B6A08',
+  'MA': '#3FA286',
+  'COM': '#3FA286',
+  'PHYS': '#6B9AC4',
+  'default': '#F9F9ED'
+}
+
 const semesters = [
   {
     title: 'Bachelor Semester 3',
@@ -303,7 +311,7 @@ export default function Home() {
             <div className="grid gap-4 md:grid-cols-3 grid-cols-1">
               {semester.courses.map(course => (
                 // @ts-expect-error colorMapping keyof
-                <Card key={course.title} className={`w-full ${course.shiny ? 'shiny-border' : ''}`} style={{ backgroundColor: colorMapping[course.code.split('-')[0]] || colorMapping.default }}>
+                <Card key={course.title} className={`w-full ${course.shiny ? 'shiny-border' : ''}`} style={{ '--shiny-color': shinyColorMapping[course.code.split('-')[0]] || colorMapping.default, backgroundColor: colorMapping[course.code.split('-')[0]] || colorMapping.default }}>
                   <CardHeader>
                     <CardTitle>{course.title} - <a target="_blank" className="text-blue-600 dark:text-blue-500 hover:underline" href={course.url}>{course.code}</a></CardTitle>
                     {course.shiny && <Badge variant="outline" className="sa-badge">SA</Badge>}

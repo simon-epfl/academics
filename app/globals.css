@@ -81,7 +81,7 @@ body {
 }
 
 .shiny-border {
-  border: 2px solid #F4B02A;
+  border: 2px solid var(--shiny-color);
   border-radius: 8px;
   position: relative;
 }
@@ -92,5 +92,5 @@ body {
   right: 8px;
   z-index: 2;
   color: white;
-  background-color: #D5920B; /* Assurez-vous que la couleur de fond est visible */
+  background-color: var(--shiny-color); /* Assurez-vous que la couleur de fond est visible */
 }
