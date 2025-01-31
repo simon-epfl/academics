@@ -294,7 +294,7 @@ export default function Home() {
   return (
     <div className="grid md:grid-rows-[150px_1fr_20px] items-center justify-items-center min-h-screen pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] container mx-auto p-3">
       <div>
-        <h1 className="text-2xl mb-4">getUniversities()<br />.filter(List(&quot;EPFL&quot;).contains(_)).flatMap(_.getCourses)<br />.filter(Simon.hasTaken(_))</h1>
+        <h1 className="text-2xl mb-4">getUniversities()<br />.filter(List(&quot;EPFL&quot;).contains(_))<br />.flatMap(_.getCourses)<br />.filter(Simon.hasTaken(_))</h1>
         <h2>Welcome! Here are the list of the courses I&apos;ve taken so far at EPFL (Swiss Federal Institute of Technology in Lausanne).</h2>
         <h2 className="mb-2">Colors is used to indicate the section of the course, and S.A. means that I&apos;ve worked for this course as a student assistant.</h2>
         <div className="flex gap-1 mb-5">
