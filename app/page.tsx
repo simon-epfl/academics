@@ -284,11 +284,12 @@ const semesters = [
 
 export default function Home() {
   return (
-    <div className="grid md:grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] container mx-auto p-3">
+    <div className="grid md:grid-rows-[150px_1fr_20px] items-center justify-items-center min-h-screen pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] container mx-auto p-3">
       <div>
-        <h1 className="text-4xl mb-4">academics.simonlefort.ch</h1>
-        <h2 className="text-1xl mb-2">Welcome!</h2>
-        <div className="flex gap-1">
+        <h1 className="text-2xl mb-4">getUniversities()<br />.filter(List("EPFL").contains(_)).flatMap(_.getCourses)<br />.filter(Simon.hasTaken(_))</h1>
+        <h2>Welcome! Here are the list of the courses I've taken so far at EPFL (Swiss Federal Institute of Technology in Lausanne).</h2>
+        <h2 className="mb-2">Colors is used to indicate the section of the course, and S.A. means that I've worked for this course as a student assistant.</h2>
+        <div className="flex gap-1 mb-5">
           {Object.keys(codes).map(code => (
             // @ts-expect-error  colorMapping keyof
             <Badge key={code} variant="outline" style={{ backgroundColor: colorMapping[code] }}>{codes[code]}</Badge>
