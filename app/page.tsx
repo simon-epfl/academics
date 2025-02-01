@@ -192,11 +192,11 @@ const semesters = [
           url: "https://github.com/simon-epfl/notes-ba2-simon/blob/main/analyse/analyse-tricks.pdf"
         },
         {
-          title: "Démonstrations",
+          title: "Proofs",
           url: "https://github.com/simon-epfl/notes-ba2-simon/blob/main/analyse/demos.pdf"
         },
         {
-          title: "Séries rédigées",
+          title: "Exercises (solutions)",
           url: "https://github.com/simon-epfl/notes-ba2-simon/tree/main/analyse/series"
         }]
       },
