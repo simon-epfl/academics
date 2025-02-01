@@ -120,7 +120,7 @@ const semesters = [
         url: "https://edu.epfl.ch/coursebook/en/state-and-human-rights-HUM-208",
         buttons: [{
           title: "Lecture notes",
-          url: "https://github.com/simon-epfl/notes-ba3-simon/blob/main/shs/notes.pdf"
+          url: "https://github.com/simon-epfl/notes-ba3-simon/blob/main/etat-droits-humains-shs/notes.pdf"
         }]
       }
     ]
