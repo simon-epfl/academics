@@ -119,7 +119,7 @@ const semesters = [
         code: "HUM-208",
         url: "https://edu.epfl.ch/coursebook/en/state-and-human-rights-HUM-208",
         buttons: [{
-          title: "Lecture Notes",
+          title: "Lecture notes",
           url: "https://github.com/simon-epfl/notes-ba3-simon/blob/main/shs/notes.pdf"
         }]
       }
@@ -147,11 +147,11 @@ const semesters = [
         url: "https://edu.epfl.ch/coursebook/fr/fundamentals-of-digital-systems-CS-173",
         shiny: true,
         buttons: [{
-          title: "Notes de cours I",
+          title: "Lecture notes I",
           url: "https://github.com/simon-epfl/notes-ba2-simon/blob/main/fds/fds-tricks-1.pdf"
         },
         {
-          title: "Notes de cours II",
+          title: "Lecture notes II",
           url: "https://github.com/simon-epfl/notes-ba2-simon/blob/main/fds/fds-tricks-2.pdf"
         },
         {
@@ -205,7 +205,7 @@ const semesters = [
         code: "CS-108",
         url: "https://cs108.epfl.ch/",
         buttons: [{
-          title: "Formulaire examen final",
+          title: "Cheat Sheet (final)",
           url: "https://github.com/simon-epfl/notes-ba2-simon/blob/main/prog/formulaire.pdf"
         }]
       },
@@ -214,7 +214,7 @@ const semesters = [
         code: "HUM-122",
         url: "https://graphsearch.epfl.ch/fr/course/HUM-122(b)",
         buttons: [{
-          title: "Lecture Notes",
+          title: "Lecture notes",
           url: "https://github.com/simon-epfl/notes-ba2-simon/blob/main/shs/cours.pdf"
         }, {
           title: "Poster (final)",
@@ -231,7 +231,7 @@ const semesters = [
         code: "PHYS-101",
         url: "https://edu.epfl.ch/coursebook/fr/physique-generale-mecanique-PHYS-101-F",
         buttons: [{
-          title: "Formulaire",
+          title: "Cheat Sheet (final)",
           url: "https://github.com/simon-epfl/notes-ba1-simon/blob/master/mecanique/Me%CC%81canique%20Cheat%20Sheet.pdf"
         }]
       },
