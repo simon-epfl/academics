@@ -1,3 +1,31 @@
+/*
+## Computer Systems
+
+## Intro to Machine Learning
+
+* Résumé sur la classification linéaire (perceptron, régression logistique, SVMs) : [PDF](./intro-to-machine-learning/ClassificationLinéaire/Classification%20Linéaire.pdf)
+* Résumé sur les arbres de décision et forêts aléatoires : [PDF](./intro-to-machine-learning/DecisionTrees/Decision%20Trees.pdf)
+* Résumé sur les transformers : [PDF](./intro-to-machine-learning/Transformers/Transformers.pdf)
+* Résumé sur K-Means : [PDF](./intro-to-machine-learning/KMeans/K-Means.pdf)
+* Résumé sur K-Nearest Neighbors : [PDF](./intro-to-machine-learning/KNN/KNN%20(K%20Nearest%20Neighbors).pdf)
+* Résumé sur l'optimisation : [PDF](./intro-to-machine-learning/Optimization/Optimization.pdf)
+* Résumé sur la réduction de dimensionnalité (PCA, LDA): [PDF](./intro-to-machine-learning/Réduction%20Linéaire/Réduction.pdf)
+* Résumé sur les CNNs : [PDF](./intro-to-machine-learning/CNN/CNN%20Convolutional%20Neural%20Networks.pdf)
+* Résumé sur le MLP (Multi-Layer Perceptron) : [PDF](./intro-to-machine-learning/MultiLayerPerceptron/Multi-Layer%20Perceptron.pdf)
+* Résumé sur la régression linéaire : [PDF](./intro-to-machine-learning/RegressLineaire/Régression%20Linéaire.pdf)
+* Résumé sur des notions générales en ML : [PDF](./intro-to-machine-learning/MISC/Misc.pdf)
+* Résumé sur les méthodes de validation : [PDF](./intro-to-machine-learning/Validation/Validation.pdf)
+* Résumé sur Python/Numpy : [PDF](./intro-to-machine-learning/Intro%20to%20ML%20Python.pdf)
+
+## Human Computer Interaction
+
+* Notre projet de semestre Figma : [PDF](./human-computer-interaction/IPS_Exsight.fig)
+
+## SHS : État et droit humain
+
+* Notes de cours (partielles) : [PDF](./droit-des-affaires/Droit%20des%20affaires.pdf)
+*/
+
 import {
   Card,
   CardContent,
@@ -39,6 +67,90 @@ const shinyColorMapping = {
 
 const semesters = [
   {
+    title: 'Bachelor Semester 4',
+    courses: [
+      {
+        title: "Algorithms",
+        code: "CS-250",
+        url: "https://edu.epfl.ch/coursebook/fr/algorithms-i-CS-250",
+        buttons: [
+          {
+            title: "Algorithms (Golang)",
+            url: "https://github.com/simon-epfl/algorithms"
+          },
+          {
+            title: "Lecture notes",
+            url: "https://github.com/simon-epfl/notes-ba4-simon/blob/master/algorithms/Algorithms.pdf"
+          },
+          {
+            title: "Cheat Sheet (midterm)",
+            url: "https://github.com/simon-epfl/notes-ba4-simon/blob/master/algorithms/cheat_sheet_algo_midterm.pdf"
+          },
+          {
+            title: "Cheat Sheet (final)",
+            url: "https://github.com/simon-epfl/notes-ba4-simon/blob/master/algorithms/cheat_sheet_algo_final.pdf"
+          }
+        ]
+      },
+      {
+        title: "Computer Systems",
+        code: "CS-202",
+        url: "https://edu.epfl.ch/coursebook/fr/computer-systems-CS-202",
+        buttons: [
+          {
+            title: "Lecture notes",
+            url: "https://github.com/simon-epfl/notes-ba4-simon/blob/master/computer-systems/Compsys.pdf"
+          },
+          {
+            title: "C Programming",
+            url: "https://github.com/simon-epfl/notes-ba4-simon/blob/master/computer-systems/Compsys%20C.pdf"
+          },
+          {
+            title: "Cheat Sheet",
+            url: "https://github.com/simon-epfl/notes-ba4-simon/blob/master/computer-systems/cheat_sheet_compsys.pdf"
+          }
+        ]
+      },
+      {
+        title: "Introduction to Machine Learning",
+        code: "CS-233",
+        url: "https://edu.epfl.ch/coursebook/en/introduction-to-machine-learning-CS-233",
+        buttons: [
+          {
+            title: "Lecture notes",
+            url: "https://github.com/simon-epfl/notes-ba4-simon#intro-to-machine-learning"
+          },
+          {
+            title: "Cheat Sheet",
+            url: "https://github.com/simon-epfl/notes-ba4-simon/blob/master/intro-to-machine-learning/iml_cheatsheet_side1.pdf"
+          }
+        ]
+      },
+      {
+        title: "Human-Computer Interaction",
+        code: "CS-213",
+        url: "https://edu.epfl.ch/coursebook/en/human-computer-interaction-CS-213",
+        buttons: [
+          {
+            title: "Figma Project",
+            url: "https://github.com/simon-epfl/notes-ba4-simon/blob/master/human-computer-interaction/IPS_Exsight.fig"
+          }
+        ]
+      },
+      {
+        title: "Business Law",
+        code: "HUM-234",
+        url: "https://edu.epfl.ch/coursebook/fr/droit-des-affaires-HUM-234",
+        buttons: [
+          {
+            title: "Lecture notes (partial)",
+            url: "https://github.com/simon-epfl/notes-ba4-simon/blob/master/droit-des-affaires/Droit%20des%20affaires.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  { 
     title: 'Bachelor Semester 3',
     courses: [
       {
